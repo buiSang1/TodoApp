@@ -11,10 +11,17 @@
   display: flex;
   flex-direction: row;
 } */
-.mat-card{
-  background-color: #191970;
-  height: auto;
 
+.mat-hint{
+  color: black;
+}
+.ng-dirty{
+  color: black;
+}
+.mat-card{
+  background-color: #a6a2a2;
+  height: auto;
+  color: black;
 }
 .root {
   display: flex;
@@ -39,7 +46,7 @@
   flex-grow: 1;
   justify-content: center;
   padding-top: 50px;
-  background-color: brown;
+  background-color: #cfd2cd;
 }
 
 .board-column {

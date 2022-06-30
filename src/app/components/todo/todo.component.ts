@@ -12,7 +12,7 @@ export class TodoComponent implements OnInit {
   todoForm !: FormGroup;
   tasks : Itask [] =[];
   inprogress: Itask [] = [];
-  done: Itask[] = [];
+  completed: Itask[] = [];
   updateId !: any;
   isEditEnabled: boolean = false;
   constructor(private fb: FormBuilder) { }
@@ -60,7 +60,7 @@ deleteTask(i: number){
 deleteInprogressTask(i: number){
   this.inprogress.splice(i, 1);
 }
-deleteDoneTask(i: number){
-  this.done.splice(i, 1);
+deleteCompletedTask(i: number){
+  this.completed.splice(i, 1);
 }
 }
