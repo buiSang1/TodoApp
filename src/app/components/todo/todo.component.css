@@ -1,5 +1,6 @@
 :host .mat-form-field{
-
+  display: flex;
+  flex-direction: column;
   width: 100%;
   /* display: flex;
   width: 20%;
@@ -19,9 +20,10 @@
   color: black;
 }
 .mat-card{
-  background-color: #a6a2a2;
+  background-color: #43aa8b;
   height: auto;
   color: black;
+  width: 25%;
 }
 .root {
   display: flex;
@@ -46,7 +48,7 @@
   flex-grow: 1;
   justify-content: center;
   padding-top: 50px;
-  background-color: #cfd2cd;
+  background-color: #f7ebec;
 }
 
 .board-column {
@@ -126,4 +128,14 @@
 
 .btn-del-done{
   margin-left: auto;
+}
+.mat-form-field-appearance-outline .mat-form-field-outline{
+  color: black;
+}
+.form-group-input{
+  background-color: #43aa8b;
+}
+.mat-card:not([class*=mat-elevation-z]){
+  box-shadow: none;
+  margin-left: 10px;
 }
